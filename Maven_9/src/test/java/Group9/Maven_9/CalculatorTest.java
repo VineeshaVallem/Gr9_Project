@@ -1,6 +1,6 @@
 package Group9.Maven_9;
 
-import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.CoreMatchers.*;
 
 import static org.junit.Assert.assertThat;
 
@@ -19,7 +19,7 @@ public class CalculatorTest {
         assertThat(result, is(0));
     }
     
-    /*@Test
+    @Test
     public void mulThreeThree() throws Exception {
         final int result = new Calculator().multiply(3, 3);
         assertThat(result, is(9));
@@ -29,6 +29,6 @@ public class CalculatorTest {
     public void divThreeMinusThree() throws Exception {
         final Long result = (long) new Calculator().divide(3, -3);
         assertThat(result, is(-1L));
-    }*/
+    }
 }
 
