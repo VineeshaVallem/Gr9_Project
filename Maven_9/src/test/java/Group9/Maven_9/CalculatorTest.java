@@ -1,6 +1,7 @@
 package Group9.Maven_9;
 
 import static org.hamcrest.CoreMatchers.is;
+
 import static org.junit.Assert.assertThat;
 
 import org.junit.Test;
